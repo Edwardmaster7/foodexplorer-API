@@ -13,7 +13,7 @@ const uploadConfig = require("./configs/upload");
 
 const app = express();
 
-const port = process.env.PORT || 3333;
+const port = process.env.PORT || 10000;
 
 app.use(cors());
 
